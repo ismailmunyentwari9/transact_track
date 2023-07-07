@@ -1,0 +1,30 @@
+<%= stylesheet_link_tag 'transactions.css', media: 'all', 'data-turbolinks-track': 'reload' %>
+<div class="container transaction-container">
+  <div class="container header">
+    <%= link_to authenticated_root_path do %>
+      <span class="fa fa-arrow-left"></span>
+    <% end %>
+    <h2>Transactions</h2>
+  </div>
+
+  <img src="<%=@category.icon%>" alt="Icon" class="category-icon">
+  <p class="category-name"><%=@category.name%></p>
+  <p class="category-details"><%=@category.details%></p>
+
+  <% @category_transactions.each_with_index do |transaction, index| %>
+    <div class="transaction-details">
+      <p class="transaction-numero">Transaction №<%= index + 1 %>41200032</p>
+      <p class="transaction-date">
+        <i class="fa fa-calendar"></i>
+<span><%= transaction.created_at.strftime('%d %B, %Y')%> at <%=transaction.created_at.strftime('%H:%M:%S')%></span>
+      </p>
+    </div>
+  <% end %>
+  <div class="container ">
+   <p class="transaction-amount"><span>TOTAL PAYMENT</span><span>$<%= @total_amount%></span></p>
+  </div>
+
+  <div class="container add-category">
+    <%= link_to "Add New Transaction", new_transaction_path, class: "btn btn-default" %>
+  </div>
+</div>
