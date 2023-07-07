@@ -39,7 +39,7 @@ body {
 }
 
 .transaction-icon {
-  width: 16px;
+  width: 18px;
   height: 16px;
   vertical-align: middle;
 }
@@ -55,7 +55,7 @@ body {
 .transaction-date {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 13px;
   font-size: 15px;
   color: gray;
   margin-left: 12px;
