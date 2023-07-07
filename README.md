@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# transact_track
-=======
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#About-the-Project)
@@ -8,6 +6,8 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [Setup](#setup)
+- [✈  Live](#Live-Demo)
+- [😎 Loom](#Loom-video)
 - [👥 Authors](#Authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -50,6 +50,14 @@
 Clone this repository to your desired folder using the following command; git clone https://github.com/ismailmunyentwari9/transact_track.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LIVE DEMO -->
+
+## LIVE DEMO <a name="Live-Demo"></a>
+- For live Demo of my project please  click <a href="https://transaction-truck.onrender.com">Live</a>
+<!-- LOOM VIDEO -->
+
+## LOOM VIDEO <a name="Loom-Video"></a>
+- For Loom Video of my project please  click <a href="https://www.loom.com/share/dc35944203bd4bf88a5e90eba408ce30?sid=682e3faa-c221-4c6e-a1d2-44d53de70461">Live</a>
 
 <!-- AUTHORS -->
 
@@ -103,4 +111,3 @@ I would like to thank  for the Original design idea by Gregoire Vella on Behance
 This project is [MIT](LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
->>>>>>> c760a749fded72a5dd4c7a1103719169fec57ab3
