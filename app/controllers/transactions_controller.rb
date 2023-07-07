@@ -20,7 +20,6 @@ class TransactionsController < ApplicationController
     end
   end
 
-
   private
 
   def transaction_params
