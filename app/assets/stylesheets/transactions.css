@@ -1,0 +1,85 @@
+body {
+  background-color: whitesmoke;
+}
+
+.transaction-container {
+  background-color: white;
+}
+
+.header {
+  margin-bottom: 1rem !important;
+}
+
+.category-icon {
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+.category-name {
+  display: inline-block;
+  vertical-align: middle;
+  color: gray;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.category-details {
+  border-bottom: 1px solid silver;
+  padding-bottom: 10px;
+  width: 35%;
+  font-size: 17px;
+  margin: 20px 0;
+}
+
+.transaction-details {
+  display: flex;
+  color: #808080;
+  flex-direction: column;
+}
+
+.transaction-icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.transaction-numero {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 1px;
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+.transaction-date {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  
+  margin-left: 12px;
+  margin-top: 1px;
+}
+
+.fa-calendar {
+  color: black;
+}
+
+.transaction-amount {
+  display: flex;
+  margin-left: 0;
+  padding-top: 12px;
+  justify-content: space-between;
+  border-top: 1px solid silver;
+  width: 35%;
+}
+
+.transaction-amount span:nth-child(1) {
+  color: gray;
+}
+
+.transaction-amount span:nth-child(2) {
+  font-weight: 600;
+}

@@ -1,0 +1,30 @@
+<div class="container form-container">
+  
+
+  <%= form_for(resource, as: resource_name, url: session_path(resource_name), html: {class: "form"}) do |f| %>
+  <div class="container header">
+  <%= link_to unauthenticated_root_path do %>
+    <span class="fa fa-arrow-left"></span>
+    <% end %>
+    <h2>LOGIN</h2>
+    <%= f.submit "Log In", class: "header-submit" %>
+  </div>
+
+    <div class="form-group">
+      <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control", placeholder: "Email" %>
+    </div>
+
+    <div class="form-group">
+      <%= f.password_field :password, autocomplete: "current-password", class: "form-control", placeholder: "Password" %>
+    </div>
+
+    <% if devise_mapping.rememberable? %>
+      <div class="form-group">
+        <%= f.check_box :remember_me, class: "form-check-input" %>
+        <%= f.label :remember_me, class: "form-check-label" %>
+      </div>
+    <% end %>
+
+  <% end %>
+   <%= link_to "Forgot your password?", new_password_path(resource_name), class: "btn btn-default" %><br />
+</div>

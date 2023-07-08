@@ -1,0 +1,18 @@
+<div class="card-columns">
+  <% @categories.each do |category| %>
+    <%= link_to category_path(category) do %>
+      <div class="container card-container">
+        <img src="<%= category.icon %>" class="card-image" alt="Category Icon">
+        <div class="card-contents">
+          <h5 class="card-name"><%= category.name %></h5>
+          <p class="card-date"><%= category.created_at.strftime('%d %B, %Y') %></p>
+        </div>
+        <p class="total-cash">$<%= @category_totals[category.id] %>
+        </p>
+      </div>
+    <% end %>
+  <% end %>
+  <div class="container add-category">
+    <%= link_to "Add New Category", new_category_path, class: "btn btn-default" %>
+  </div>
+</div>

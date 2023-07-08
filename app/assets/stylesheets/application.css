@@ -1,0 +1,133 @@
+* {
+  font-family: 'Proxima Nova', Arial, sans-serif;
+}
+
+link {
+  text-decoration: none;
+}
+
+body {
+  padding-bottom: 2rem;
+}
+
+.fa {
+  color: white;
+}
+
+/* splash styles */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-page p {
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+.home-page .row {
+  margin-top: 10%;
+  display: flex;
+  margin-left: 30%;
+}
+
+.home-page .btn-primary {
+  background-color: #3778c2;
+}
+
+/* form styles */
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container .btn {
+  width: 70%;
+}
+
+.form-container .btn:nth-child(1) {
+  background-color: #3778c2;
+}
+
+.header {
+  background-color: #3778c2;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
+.header .header-submit {
+  background-color: transparent !important;
+  border: none;
+  color: white;
+}
+
+.form-container .btn-info {
+  background-color: none;
+}
+
+/* categories index styles  */
+.card-container {
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 15%;
+  height: auto;
+}
+
+.add-category {
+  background-color: #5fb523 !important;
+  padding: 25px;
+  position: fixed;
+  bottom: 0;
+  left: 7%;
+  margin-bottom:2%;
+  color:white !important;
+}
+
+.add-category a {
+  border: 1px solid white;
+  color: white!important;
+  font-size: 29px;
+  margin-left: 10%;
+  width: 75%;
+}
+
+.card-contents {
+  margin-right: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sign_out {
+  margin-left: 7%;
+  margin-bottom: 1%;
+}
+
+.card-columns a {
+  text-decoration: none;
+  color: inherit;
+  color: gray;
+}
+
+.card-columns a:hover {
+  color: black;
+}
+
+.total-cash {
+  width: auto;
+  font-weight: 600;
+}
