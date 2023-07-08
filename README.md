@@ -57,7 +57,7 @@ Clone this repository to your desired folder using the following command; git cl
 <!-- LOOM VIDEO -->
 
 ## LOOM VIDEO <a name="Loom-Video"></a>
-- For Loom Video of my project please  click <a href="https://www.loom.com/share/dc35944203bd4bf88a5e90eba408ce30?sid=682e3faa-c221-4c6e-a1d2-44d53de70461">Live</a>
+- For Loom Video of my project please  click <a href="https://www.loom.com/share/173e6d7800e24208b3b648cbee549ee9?sid=22f7273f-b319-433a-a4f2-e552c808ce9c">Live</a>
 
 <!-- AUTHORS -->
 
