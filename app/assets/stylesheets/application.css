@@ -90,11 +90,16 @@ body {
 .add-category {
   background-color: #5fb523 !important;
   padding: 25px;
+  position: fixed;
+  bottom: 0;
+  left: 7%;
+  margin-bottom:2%;
+  color:white !important;
 }
 
 .add-category a {
   border: 1px solid white;
-  color: white;
+  color: white!important;
   font-size: 29px;
   margin-left: 10%;
   width: 75%;

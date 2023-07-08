@@ -35,6 +35,7 @@ body {
 
 .transaction-details {
   display: flex;
+  color: #808080;
   flex-direction: column;
 }
 
@@ -49,7 +50,7 @@ body {
   vertical-align: middle;
   margin-bottom: 1px;
   margin-left: 10px;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .transaction-date {
@@ -57,7 +58,7 @@ body {
   align-items: center;
   gap: 12px;
   font-size: 15px;
-  color: gray;
+  
   margin-left: 12px;
   margin-top: 1px;
 }
